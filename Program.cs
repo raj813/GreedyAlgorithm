@@ -1,6 +1,7 @@
 ﻿// See https://aka.ms/new-console-template for more information
 using Microsoft.VisualBasic;
 using System.Collections;
+using System.Globalization;
 using System.Net.NetworkInformation;
 using System.Security.Cryptography.X509Certificates;
 
@@ -198,10 +199,10 @@ int SurvivrIseland(int n,int m ,int s)
 //*
 //Reverse a string .
 //from . *//
-string s = "iam.like.this.program.very.much";
-Console.WriteLine(s);
-s = revWords(s);
+
+/*string s = "iam.like.this.program.very.much";
 Console.WriteLine(s); 
+*/
 string revString(string s) 
 {
     char[] temp = s.ToCharArray();
@@ -233,7 +234,25 @@ string revWords(string s)
     
 }
 
+//*
+//Choclate distribution problem
+//*// 
+int[] a = { 3, 4, 1, 9, 56, 7, 9, 12 };
+int n = 8, m = 5;
 
+Console.WriteLine("ChoclatedistributionMindiff : " + ChoclatedistributionMindiff(a, m, n));
+ int ChoclatedistributionMindiff(int[] a,int m,int n) 
+{
+    Array.Sort(a);
+    int min = int.MaxValue;
+    int i = 0, j = m - 1;
+    while (j < a.Length) 
+    {
+        min = Math.Min(min, a[j] - a[i]);
+        i++;j++;
+    }
 
+    return min;
+}
 
 
