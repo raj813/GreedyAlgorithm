@@ -145,12 +145,7 @@ int findPlateform(int[] a,int[] d ,int n)
 //Shop in the candy store -Find minimum spedning and max spending . To  buy all candy
 //with all candy you receive int k which allow to get some free candy.
 //*//
-int k = 2;
-int[] a = {3,2,1,4 };
 
-int[] b = shopCandy(a, a.Length, k);
-Console.WriteLine("Min : " + b[0]);
-Console.WriteLine("Max : " + b[1]);
 int[] shopCandy(int[] a,int n ,int k) 
 {
     int[] ans = new int[2];
@@ -176,5 +171,31 @@ int[] shopCandy(int[] a,int n ,int k)
     }
     return ans;
 }
+
+//*   Survive on iseland 
+//  N = max food can be buy,
+//  M  = food/day to  survuve .
+//  s= days to  survive
+//  Shop is closed on sundays . Everytime you start at Tuesday.
+//  return total no of buying ,if not able to survive return -1.*//
+
+Console.WriteLine("Food buying day : " + SurvivrIseland(20,30,10));
+int SurvivrIseland(int n,int m ,int s)                  
+{
+    int ans = 0;
+    int sundays = s / 7;
+    int buyingdays = s - sundays;
+
+    int maxfood = s * m;
+    if (maxfood % n == 0) {ans = maxfood/n; }
+    else { return (maxfood / n + 1); }
+
+    if (ans <= buyingdays) { return ans; }
+    else { return -1; }
+    
+}
+
+
+
 
 
