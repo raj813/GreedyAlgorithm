@@ -1,0 +1,15 @@
+C:\Users\v-rajraval\source\repos\GeedyAlgorithm\GeedyAlgorithm\bin\Debug\net6.0\GeedyAlgorithm.exe
+C:\Users\v-rajraval\source\repos\GeedyAlgorithm\GeedyAlgorithm\bin\Debug\net6.0\GeedyAlgorithm.deps.json
+C:\Users\v-rajraval\source\repos\GeedyAlgorithm\GeedyAlgorithm\bin\Debug\net6.0\GeedyAlgorithm.runtimeconfig.json
+C:\Users\v-rajraval\source\repos\GeedyAlgorithm\GeedyAlgorithm\bin\Debug\net6.0\GeedyAlgorithm.dll
+C:\Users\v-rajraval\source\repos\GeedyAlgorithm\GeedyAlgorithm\bin\Debug\net6.0\GeedyAlgorithm.pdb
+C:\Users\v-rajraval\source\repos\GeedyAlgorithm\GeedyAlgorithm\obj\Debug\net6.0\GeedyAlgorithm.csproj.AssemblyReference.cache
+C:\Users\v-rajraval\source\repos\GeedyAlgorithm\GeedyAlgorithm\obj\Debug\net6.0\GeedyAlgorithm.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\v-rajraval\source\repos\GeedyAlgorithm\GeedyAlgorithm\obj\Debug\net6.0\GeedyAlgorithm.AssemblyInfoInputs.cache
+C:\Users\v-rajraval\source\repos\GeedyAlgorithm\GeedyAlgorithm\obj\Debug\net6.0\GeedyAlgorithm.AssemblyInfo.cs
+C:\Users\v-rajraval\source\repos\GeedyAlgorithm\GeedyAlgorithm\obj\Debug\net6.0\GeedyAlgorithm.csproj.CoreCompileInputs.cache
+C:\Users\v-rajraval\source\repos\GeedyAlgorithm\GeedyAlgorithm\obj\Debug\net6.0\GeedyAlgorithm.dll
+C:\Users\v-rajraval\source\repos\GeedyAlgorithm\GeedyAlgorithm\obj\Debug\net6.0\refint\GeedyAlgorithm.dll
+C:\Users\v-rajraval\source\repos\GeedyAlgorithm\GeedyAlgorithm\obj\Debug\net6.0\GeedyAlgorithm.pdb
+C:\Users\v-rajraval\source\repos\GeedyAlgorithm\GeedyAlgorithm\obj\Debug\net6.0\GeedyAlgorithm.genruntimeconfig.cache
+C:\Users\v-rajraval\source\repos\GeedyAlgorithm\GeedyAlgorithm\obj\Debug\net6.0\ref\GeedyAlgorithm.dll
