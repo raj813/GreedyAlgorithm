@@ -11,11 +11,11 @@ Console.WriteLine("Hello, World!");
 
 // Activity selcetion problem Or Maximum Disjoint interval . 
 //  Maximum Meetings in One Room   -- https://practice.geeksforgeeks.org/problems/maximum-meetings-in-one-room/1?utm_source=youtube&utm_medium=collab_anujbhaiya_description&utm_campaign=maximum-meetings-in-one-room
-
+/*
 int[] s = { 1, 4, 12, 15, 7 };
 int[] f = { 13, 6, 14, 19, 13 };
 //Console.WriteLine("maxMetting : " + maxMettings(s.Length, s, f));
-
+*/
 
 static void print2dArray(int[,] arrip)
 {
@@ -179,7 +179,7 @@ int[] shopCandy(int[] a,int n ,int k)
 //  Shop is closed on sundays . Everytime you start at Tuesday.
 //  return total no of buying ,if not able to survive return -1.*//
 
-Console.WriteLine("Food buying day : " + SurvivrIseland(20,30,10));
+// Console.WriteLine("Food buying day : " + SurvivrIseland(20,30,10));
 int SurvivrIseland(int n,int m ,int s)                  
 {
     int ans = 0;
@@ -192,6 +192,44 @@ int SurvivrIseland(int n,int m ,int s)
 
     if (ans <= buyingdays) { return ans; }
     else { return -1; }
+    
+}
+
+//*
+//Reverse a string .
+//from . *//
+string s = "iam.like.this.program.very.much";
+Console.WriteLine(s);
+s = revWords(s);
+Console.WriteLine(s); 
+string revString(string s) 
+{
+    char[] temp = s.ToCharArray();
+    Array.Reverse(temp);
+    s = new string(temp);   
+    return s;
+}
+string revWords(string s) 
+{
+    string ans = "";
+    string temp = "";
+    for (int i = s.Length -1;i>=0 ; i--)
+    {
+        if (s[i] == '.')
+        {
+            temp = revString(temp);
+            ans = ans + temp + '.';
+            temp = "";
+        }
+        else
+        {
+            temp += (s[i]);
+        }
+    }
+       
+        ans = ans + revString(temp);
+    
+        return ans;
     
 }
 
